@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{font-family: "Roboto", sans-serif; font-weight: 400; box-sizing: border-box;}
+body{font-size: 90%; font-weight: 400;  background-color: #F2F2F2; margin: 0;}
+nav, header, main section, main aside div, #redes, footer{display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    #redes img{width:15%;}
+nav {
+    width: 90%;
+    border-top: 2px solid rgb(252, 238, 33);
+    margin: auto;
+   
+}
+nav img, footer img{width: 240px; height: 56px;}
+nav ul{font-family: "Roboto", sans-serif;
+    font-style: normal;
+font-size: 24px; list-style-type: none; width: 60%; text-align: right;}
+nav ul li a{color: black; text-decoration: none; margin: 0 15px; padding:1%}
+nav ul li a:hover{background-color: #fcee21;  color: rgb(33, 45, 218);}
+header{margin-top: 100px}
+h2{font-size: 26px; font-weight: 900;}
+header h1 strong{font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+font-size: 88px;
+line-height: 100%;}
+header, main{
+  width: 90%;
+  margin: 0 auto;
+}
+header img{width: 40%; height: auto; margin-top: 20px;}
+main{text-align: justify;}
+main section{border-bottom: 1px solid #999595; padding-bottom: 20px;}
+main div{width: 40%;}
+main aside div{width: 100%;}
+main aside ol{
+  font-size: 2em;
+     /*line-height: 300%;*/
+    /*list-style-image: url('../imagenes/iconoLista.png');*/
+    list-style-type:decimal;
+    list-style-position: inside;
+  
+}
+/*main aside div{text-align: center;}*/
+main aside div img{width: 40%; height: auto; margin: 20px 10px;}
+main aside form span{color: red; font-weight: 700; font-size: 18px;}
+#seccionForm{
+ width: 40%;
+}
+main aside form{
+  width: 40%;
+  /*text-align: center;*/
+}
+main aside form input, main aside form textarea{
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  }
+main aside form input, main aside form textarea, main aside form label{
+  display: block;
+}
+main aside form button, input[type="reset"]{ /*uso de un selector de atributo*/
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 30%;
+  display: inline;
+}
+input[type="reset"]{
+  margin-left: 40%;
+}
+footer {
+    width: 100%;
+    background-color: rgb(252, 238, 33);
+}
+footer p{font-size: 21px; margin: 0; padding: 10px 0;}
+.tituloDeSeccion, #item, #contacto{background-color: rgb(252, 238, 33); width: fit-content; padding:0 5px;} 
+#item, #contacto{font-size: 30px;font-weight: 800;}
+#lista{line-height: 200%;}
+.contacto{font-size: 50px; font-weight: 900; margin-top: 40px; color:white; background-color: black;width: fit-content; padding:0 5px;}
+
